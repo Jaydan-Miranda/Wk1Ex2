@@ -37,10 +37,10 @@ namespace Wk1Ex2
             // declare a string variable to hold the user input for the color
             string color = Console.ReadLine();
 
-            //print out some comfirm message
+            //prints out a sentence that includes the user's inputs using the variables that stores them
             Console.WriteLine("Hello, " + fname + " " +lname + "! You are " + age + " years old and your favorite color is " + color + ".");
 
-            //stop the screen for user to see the result
+            //stops the screen for user to see the result
             Console.ReadLine();
         }
     }
